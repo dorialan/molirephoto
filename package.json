@@ -10,7 +10,8 @@
   "author": "Molire Production",
   "license": "ISC",
   "dependencies": {
-    "fullpage.js": "^2.9.2"
+    "fullpage.js": "^2.9.2",
+    "jquery": "^3.1.1"
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
