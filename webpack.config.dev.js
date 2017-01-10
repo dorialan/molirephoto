@@ -1,4 +1,5 @@
 const path = require("path")
+const DashboardPlugin = require('webpack-dashboard/plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
@@ -11,6 +12,7 @@ module.exports = {
     filename: "bundle.js"
   },
   plugins: [
+  	new DashboardPlugin(),
     new CopyWebpackPlugin([ { from: 'src/images', to: 'images' } ])
   ],
   module: {

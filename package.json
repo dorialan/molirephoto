@@ -5,15 +5,14 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dashboard -- webpack-dev-server --config ./webpack.config.js"
+    "start": "webpack-dashboard -- webpack-dev-server --config ./webpack.config.dev.js",
+    "build": "rm -rf ./build/*; webpack --config ./webpack.config.js"
   },
   "author": "Molire Production",
   "license": "ISC",
-  "dependencies": {
-    "fullpage.js": "^2.9.2",
-    "jquery": "^3.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.26.1",
     "file-loader": "^0.9.0",
     "style-loader": "^0.13.1",
