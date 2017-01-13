@@ -1,0 +1,3 @@
+User-agent: *
+Host: molirephoto.pl
+Sitemap: http://molirephoto.pl/sitemap.xml
