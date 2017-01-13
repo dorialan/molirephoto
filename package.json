@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dashboard -- webpack-dev-server --config ./webpack.config.dev.js",
-    "build": "rm -rf ./build/*; webpack --config ./webpack.config.js"
+    "build": "rm -rf ./docs/*; webpack --config ./webpack.config.js; echo 'molirephoto.pl' > ./docs/CNAME"
   },
   "author": "Molire Production",
   "license": "ISC",
