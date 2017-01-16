@@ -23,9 +23,11 @@ app.get('/prices', (req, res) => {
   return res.render('pages/prices', { current: 'prices' });
 });
 
-app.listen(8080, err => {
+const port = process.env.PORT || 3000;
+const env = process.env.NODE_ENV || 'production';
+app.listen(port, err => {
   if (err) {
     return console.error(err);
   }
-  console.info('Server running on http://localhost:8080');
+  console.info(`Server running on http://localhost:${port} [${env}]`);
 });
