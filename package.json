@@ -2,23 +2,15 @@
   "name": "molirephoto.pl",
   "version": "1.0.0",
   "description": "Molire photostudio website",
-  "main": "src/index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dashboard -- webpack-dev-server --config ./webpack.config.dev.js",
-    "build": "rm -rf ./docs/*; webpack --config ./webpack.config.js; cp ./CNAME ./docs; cp ./robots.txt ./docs; cp ./sitemap.xml ./docs;"
+    "start": "nore server.js",
   },
   "author": "Molire Production",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.26.1",
-    "file-loader": "^0.9.0",
-    "style-loader": "^0.13.1",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.14.0",
-    "webpack-dashboard": "^0.2.0",
-    "webpack-dev-server": "^1.16.2"
-  }
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {}
 }
