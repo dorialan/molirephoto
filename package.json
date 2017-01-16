@@ -4,7 +4,7 @@
   "description": "Molire photostudio website",
   "main": "server.js",
   "scripts": {
-    "start": "nore server.js",
+    "start": "node server.js"
   },
   "author": "Molire Production",
   "license": "ISC",
