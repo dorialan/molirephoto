@@ -3,13 +3,33 @@
 <% include ../partials/head %>
 
 <body>
+  <iframe
+    width="100%"
+    height="350"
+    frameborder="0"
+    style="border:0;margin-top: -19px"
+    src="https://www.google.com/maps/embed/v1/place?q=Molire%20studio%20fotograficzne&key=AIzaSyA7UCJfeZ62Ah1CXlZXB3aESR2LFiIx95I"
+    allowfullscreen></iframe>
+
   <div class="container">
     <%- include('../partials/header', {current: current}) %>
 
     <div class="row">
-      <div class="col-md-12">
-        <h1>Hello contacts!</h1>
+      <div class="col-md-4">
+        <h3>Nasze kontakty</h3>
+        <address>
+          <i class="fa fa-lg fa-map-marker" aria-hidden="true"></i> ul. Stefana Batorego 22/2, 31-135, Kraków<br>
+          <i class="fa fa-lg fa-phone" aria-hidden="true"></i> 793 764 553<br>
+          <i class="fa fa-lg fa-envelope" aria-hidden="true"></i>
+          <script language="JavaScript">
+          var username = "info";
+          var hostname = "molirephoto.pl";
+          var linktext = username + "@" + hostname;
+          document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+          </script>
+        </address>
       </div>
+      <div class="col-md-8"></div>
     </div>
   </div>
 

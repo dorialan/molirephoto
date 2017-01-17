@@ -269,7 +269,7 @@ body {
   line-height: 1.428571429;
   color: #333333;
   padding-top: 70px;
-  background-color: #ffe6f2;
+  background-color: #fff;
 }
 input,
 button,
@@ -354,7 +354,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -3947,8 +3947,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #fff;
-  /*border-color: #e7e7e7;*/
-  border: none;
+  border-color: #ff008a;
 }
 .navbar-default .navbar-brand {
   color: #777777;
