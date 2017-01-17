@@ -1,24 +1,93 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <% include ../partials/head %>
+<link rel="stylesheet" href="css/jquery-rebox.css"></link>
+<link rel="stylesheet" href="css/hover.min.css"></link>
+<script src="js/jquery-rebox.js"></script>
 
 <body>
-  <div class="container">
+  <div class="container gallery" id="gallery">
     <%- include('../partials/header', {current: current}) %>
 
-    <div class="row">
-      <div class="col-md-12">
-        <img src="images/locations/lokacje-1.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Krakow, lokacje - pod choinką" />
-        <img src="images/locations/lokacje-2.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Krakow, lokacje " />
-        <img src="images/locations/lokacje-3.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Krakow, lokacje " />
-        <img src="images/locations/lokacje-4.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Krakow, lokacje " />
-        <img src="images/locations/lokacje-5.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Krakow, lokacje " />
-        <img src="images/locations/lokacje-6.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Krakow, lokacje " />
-        <img src="images/locations/lokacje-7.jpg" class="img-responsive center-block thumbnail" alt="Molire - Studio fotograficzne, Kraków, lokacje " />
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a href="images/locations/lokacje-1.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #1">
+        <img class="img-responsive" src="images/locations/lokacje-1.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
       </div>
     </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a href="images/locations/lokacje-2.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #2">
+        <img class="img-responsive" src="images/locations/lokacje-2.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a class="ddd" href="images/locations/lokacje-6.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #6">
+        <img class="img-responsive" src="images/locations/lokacje-6.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a href="images/locations/lokacje-5.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #5">
+        <img class="img-responsive" src="images/locations/lokacje-5.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a href="images/locations/lokacje-4.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #4">
+        <img class="img-responsive" src="images/locations/lokacje-4.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
+      </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a href="images/locations/lokacje-7.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #7">
+        <img class="img-responsive" src="images/locations/lokacje-7.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="hover ehover1">
+      <a href="images/locations/lokacje-3.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #3">
+        <img class="img-responsive" src="images/locations/lokacje-3.jpg" alt="">
+        <div class="overlay">
+        </div>
+      </a>
+      </div>
+    </div>
+
+
+    <p>&nbsp;</p>
   </div>
 
   <% include ../partials/footer %>
+
+  <script>
+    $('#gallery a').rebox();
+  </script>
 </body>
 </html>
