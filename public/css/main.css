@@ -5788,3 +5788,18 @@ button.close {
 .main-menu-margin {
   height: 1px;
 }
+
+hr.pink {
+  border: none;
+  width: 20%;
+  text-align: center;
+  border-bottom: 1px solid #ff008a;
+}
+
+h1, h2 {
+  color: #FE4EAD;
+}
+
+h3 {
+  color: #FE6ABA;
+}

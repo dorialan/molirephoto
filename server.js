@@ -11,15 +11,15 @@ app.get('/', (req, res) => {
   return res.render('pages/about', { current: 'about' });
 });
 
-app.get('/about', (req, res) => {
+app.get('/o-nas', (req, res) => {
   return res.render('pages/about', { current: 'about' });
 });
 
-app.get('/contacts', (req, res) => {
+app.get('/kontakty', (req, res) => {
   return res.render('pages/contacts', { current: 'contacts' });
 });
 
-app.get('/prices', (req, res) => {
+app.get('/pakiety', (req, res) => {
   return res.render('pages/prices', { current: 'prices' });
 });
 

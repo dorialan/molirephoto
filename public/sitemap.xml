@@ -4,4 +4,49 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>
+    <loc>http://molirephoto.pl/</loc>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/logo.png</image:loc>
+      <image:caption>Molire - Studio fotograficzne w Krakowie</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-1.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje - pod choinką</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-2.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #2</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-3.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #3</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-4.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #4</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-5.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #5</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-6.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #6</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-7.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #7</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://molirephoto.pl/pakiety</loc>
+  </url>
+  <url>
+    <loc>http://molirephoto.pl/o-nas</loc>
+  </url>
+  <url>
+    <loc>http://molirephoto.pl/kontakty</loc>
+  </url>
 </urlset>
