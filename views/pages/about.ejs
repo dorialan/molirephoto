@@ -6,88 +6,93 @@
 <script src="js/jquery-rebox.js"></script>
 
 <body>
-  <div class="container gallery" id="gallery">
+  <div class="container-fluid">
     <%- include('../partials/header', {current: current}) %>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a href="images/locations/lokacje-1.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #1">
-        <img class="img-responsive" src="images/locations/lokacje-1.jpg" alt="">
-        <div class="overlay">
+    <div class="gallery" id="gallery">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a href="images/locations/lokacje-1.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #1">
+          <img class="img-responsive" src="images/locations/lokacje-1.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a href="images/locations/lokacje-2.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #2">
-        <img class="img-responsive" src="images/locations/lokacje-2.jpg" alt="">
-        <div class="overlay">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a href="images/locations/lokacje-2.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #2">
+          <img class="img-responsive" src="images/locations/lokacje-2.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a class="ddd" href="images/locations/lokacje-6.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #6">
-        <img class="img-responsive" src="images/locations/lokacje-6.jpg" alt="">
-        <div class="overlay">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a class="ddd" href="images/locations/lokacje-6.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #6">
+          <img class="img-responsive" src="images/locations/lokacje-6.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a href="images/locations/lokacje-5.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #5">
-        <img class="img-responsive" src="images/locations/lokacje-5.jpg" alt="">
-        <div class="overlay">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a href="images/locations/lokacje-5.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #5">
+          <img class="img-responsive" src="images/locations/lokacje-5.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a href="images/locations/lokacje-4.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #4">
-        <img class="img-responsive" src="images/locations/lokacje-4.jpg" alt="">
-        <div class="overlay">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a href="images/locations/lokacje-4.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #4">
+          <img class="img-responsive" src="images/locations/lokacje-4.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
-    </div>
 
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a href="images/locations/lokacje-7.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #7">
-        <img class="img-responsive" src="images/locations/lokacje-7.jpg" alt="">
-        <div class="overlay">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a href="images/locations/lokacje-7.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #7">
+          <img class="img-responsive" src="images/locations/lokacje-7.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-      <div class="hover ehover1">
-      <a href="images/locations/lokacje-3.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #3">
-        <img class="img-responsive" src="images/locations/lokacje-3.jpg" alt="">
-        <div class="overlay">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="hover ehover1">
+        <a href="images/locations/lokacje-3.jpg" title="Molire - Studio fotograficzne, Krakow, lokacje #3">
+          <img class="img-responsive" src="images/locations/lokacje-3.jpg" alt="">
+          <div class="overlay">
+          </div>
+        </a>
         </div>
-      </a>
       </div>
+
     </div>
-
-
-    <p>&nbsp;</p>
   </div>
+  <p>&nbsp;</p>
 
   <% include ../partials/footer %>
 
   <script>
-    $('#gallery a').rebox();
+    $('#gallery').rebox({
+      selector: 'a',
+      loading: '...',
+      cycle: true
+    });
   </script>
 </body>
 </html>

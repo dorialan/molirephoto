@@ -5804,3 +5804,7 @@ h1, h2 {
 h3 {
   color: #FE6ABA;
 }
+
+.fa-ul li {
+  padding-bottom: 10px;
+}
