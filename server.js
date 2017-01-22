@@ -15,13 +15,13 @@ app.get('/o-nas', (req, res) => {
   return res.render('pages/about', { current: 'about' });
 });
 
-// app.get('/kontakty', (req, res) => {
-//   return res.render('pages/contacts', { current: 'contacts' });
-// });
-
-app.get('/pakiety', (req, res) => {
-  return res.render('pages/prices', { current: 'prices' });
+app.get('/kontakty', (req, res) => {
+  return res.render('pages/contacts', { current: 'contacts' });
 });
+
+// app.get('/pakiety', (req, res) => {
+//   return res.render('pages/prices', { current: 'prices' });
+// });
 
 const port = process.env.PORT || 3000;
 const env = process.env.NODE_ENV || 'production';
