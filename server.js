@@ -23,6 +23,10 @@ app.get('/kontakty', (req, res) => {
 //   return res.render('pages/prices', { current: 'prices' });
 // });
 
+app.get('*', (req, res) => {
+	return res.redirect('/')
+});
+
 const port = process.env.PORT || 3000;
 const env = process.env.NODE_ENV || 'production';
 app.listen(port, err => {
