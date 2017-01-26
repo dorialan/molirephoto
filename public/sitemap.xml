@@ -2,6 +2,7 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
@@ -38,6 +39,14 @@
     <image:image>
       <image:loc>http://molirephoto.pl/images/locations/lokacje-7.jpg</image:loc>
       <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #7</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-8.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #8</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://molirephoto.pl/images/locations/lokacje-9.jpg</image:loc>
+      <image:caption>Molire - Studio fotograficzne, Krakow, lokacje #9</image:caption>
     </image:image>
   </url>
   <url>
